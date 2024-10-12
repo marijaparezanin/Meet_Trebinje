@@ -14,3 +14,15 @@ function moveCarousel(direction) {
     const carousel = document.querySelector('.carousel');
     carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
+
+
+function toggleMap(button) {
+    const mapContainer = button.nextElementSibling; // Get the map container next to the button
+    const isHidden = mapContainer.style.display === 'none';
+
+    // Toggle the display property
+    mapContainer.style.display = isHidden ? 'block' : 'none';
+
+    // Optionally, you could change the button text based on visibility
+    button.textContent = isHidden ? 'Hide Map' : 'Show Map';
+}

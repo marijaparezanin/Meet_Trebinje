@@ -169,3 +169,10 @@ main {
 .carousel-control:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+.map-container {
+    margin-top: 10px; /* Adds some spacing above the map */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 8px; /* Optional border radius */
+    overflow: hidden; /* Ensures the corners are rounded */
+}
