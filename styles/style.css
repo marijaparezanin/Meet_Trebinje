@@ -1,4 +1,89 @@
-body {
+/*body {
     background-color: var(--primary-color);
     color: var(--text-color);
-  }
+    font-family: var(--font-cursive);    
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--text-color);
+}
+*/
+/* styles/main.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--font-green);
+    /*color: #333; /* Text color */
+    background-color: var(--neutral-color);
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: var(--neutral-color);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+/* Set flex properties for ul */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+}
+
+/* Logo Styles */
+.logo-nav {
+    height: 50px;
+    padding-left: 10px;
+}
+
+/* Link Styles */
+.navbar a {
+    color: var(--font-green);
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+/* Video Container */
+.video-container {
+    margin-top: -80px; /* Remove negative margin */
+    position: relative;
+    height: 60vh; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflowing content */
+    z-index: 1; /* Set lower than navbar */
+}
+
+.banner-video {
+    width: 100%; /* Full width of the screen */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the entire container */
+    z-index: 0;
+
+}
+
+.logo-display{
+    position:relative;
+    background-color: rgba(227, 239, 249, 0.159);
+    width: 100%; /* Full width of the screen */
+    height: 100%; /* Full height of the container */
+    object-fit: cover;
+}
+
+main .logo-display{
+    width: 80%;
+}
+
+main {
+    color: var(--font-green);
+    background-color: var(--neutral-color);
+    position: relative; /* Allows for stacking context */
+    z-index: 1; /* Higher than video container */
+    padding: 20px; /* Add some padding for better visibility */
+    transition: transform 0.3s ease; /* Swift transition */
+}

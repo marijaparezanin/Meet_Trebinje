@@ -1,6 +1,8 @@
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --accent-color: #e74c3c;
-    --text-color: #333333;
-  }
+    --primary-color: #067584;
+    --secondary-color: #082040;
+    --accent-color: #80BC00;
+    --neutral-color: rgb(253, 245, 232);
+    --font-cursive: 'Eye Catching Pro', sans-serif;   
+    --font-green: rgb(49, 92, 51);
+}
