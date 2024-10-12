@@ -40,6 +40,7 @@ body {
 .logo-nav {
     height: 50px;
     padding-left: 10px;
+    background-color: transparent;
 }
 
 /* Link Styles */
@@ -69,14 +70,21 @@ body {
 
 .logo-display{
     position:relative;
-    background-color: rgba(227, 239, 249, 0.159);
-    width: 100%; /* Full width of the screen */
-    height: 100%; /* Full height of the container */
+    background-color: transparent;
+    width: 60%; /* Full width of the screen */
+    height: 80%; /* Full height of the container */
     object-fit: cover;
+    padding: 10px 80px 0 80px;
 }
 
 main .logo-display{
-    width: 80%;
+    background-color: transparent;
+}
+
+.branch-separator{
+    background-color: transparent;
+    width: 90%;
+    padding: 10px 20px;
 }
 
 main {
@@ -85,5 +93,79 @@ main {
     position: relative; /* Allows for stacking context */
     z-index: 1; /* Higher than video container */
     padding: 20px; /* Add some padding for better visibility */
+    padding-top: 0px;
     transition: transform 0.3s ease; /* Swift transition */
+}
+
+
+
+.restaurants h1{
+    text-align:center;
+    margin-top: 0px;
+
+}
+
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+/* Card */
+.card {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h2{
+    margin-top: 0px;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+/* Carousel Navigation Buttons */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }

@@ -1,17 +1,16 @@
-let hasScrolled = false; // Track if the user has scrolled
+let currentIndex = 0;
+const cards = document.querySelectorAll('.card');
+const totalCards = cards.length;
 
-window.addEventListener('scroll', function() {
-    const textSection = document.querySelector('main');
-    const scrollY = window.scrollY;
+function moveCarousel(direction) {
+    currentIndex += direction;
 
-    console.log(hasScrolled); // Check the scroll state
-
-    // Trigger the shift as soon as user scrolls a little bit
-    if (scrollY > 0 && !hasScrolled) {
-        hasScrolled = true;
-        textSection.style.transform = 'translateY(-60vh)'; // Shift the main section up immediately
-    } else if (scrollY === 0 && hasScrolled) {
-        hasScrolled = false;
-        textSection.style.transform = 'translateY(0)'; // Move it back to the original position
+    if (currentIndex < 0) {
+        currentIndex = totalCards - 1; // Go to the last card if negative
+    } else if (currentIndex >= totalCards) {
+        currentIndex = 0; // Go back to the first card if exceeded
     }
-});
+
+    const carousel = document.querySelector('.carousel');
+    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
