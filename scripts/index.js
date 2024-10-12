@@ -13,6 +13,18 @@ function moveCarousel(direction) {
 
     const carousel = document.querySelector('.carousel');
     carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+    // Hide all map containers when changing cards
+    const mapContainers = document.querySelectorAll('.map-container');
+    mapContainers.forEach(container => {
+        container.style.display = 'none'; // Hide each map container
+    });
+
+    // Optionally, reset button text for all buttons
+    const buttons = document.querySelectorAll('.show-map');
+    buttons.forEach(button => {
+        button.textContent = 'Show Map'; // Reset button text to "Show Map"
+    });
 }
 
 
