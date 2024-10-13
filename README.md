@@ -27,6 +27,6 @@ You can view the live website [here](https://meet-trebinje.netlify.app/).
 To view the website locally, simply clone the repository and open the `index.html` file in your web browser.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/marijaparezanin/Meet_Trebinje.git
 cd meet-trebinje
 open index.html
