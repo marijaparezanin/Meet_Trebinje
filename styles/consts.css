@@ -1,9 +1,11 @@
 :root {
     --primary-color: rgb(6 117 132);
+    --primary-color-transparent: rgba(6, 117, 132, 0.673);
     --secondary-color: #082040;
     --accent-color: #80BC00;
     --neutral-color: rgb(253, 245, 232);
     --font-cursive: 'Eye Catching Pro', sans-serif;   
     --font-green: rgb(49, 92, 51);
+    --green-transparent:  rgba(49, 92, 51, 0.767);
     --font-brown: #6e4618;
 }

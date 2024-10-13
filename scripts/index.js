@@ -2,7 +2,13 @@ let currentIndex = 0;
 const cards = document.querySelectorAll('.card');
 const totalCards = cards.length;
 
-function moveCarousel(direction) {
+function moveCarousel(direction, carouselElement) {
+    const cards = carouselElement.querySelectorAll('.card');
+    const totalCards = cards.length;
+
+    // Get the current index for this specific carousel
+    let currentIndex = parseInt(carouselElement.getAttribute('data-current-index')) || 0;
+
     currentIndex += direction;
 
     if (currentIndex < 0) {
@@ -11,21 +17,22 @@ function moveCarousel(direction) {
         currentIndex = 0; // Go back to the first card if exceeded
     }
 
-    const carousel = document.querySelector('.carousel');
-    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+    carouselElement.style.transform = `translateX(-${currentIndex * 100}%)`;
+    carouselElement.setAttribute('data-current-index', currentIndex); // Update the current index
 
     // Hide all map containers when changing cards
-    const mapContainers = document.querySelectorAll('.map-container');
+    const mapContainers = carouselElement.querySelectorAll('.map-container');
     mapContainers.forEach(container => {
         container.style.display = 'none'; // Hide each map container
     });
 
     // Optionally, reset button text for all buttons
-    const buttons = document.querySelectorAll('.show-map');
+    const buttons = carouselElement.querySelectorAll('.show-map');
     buttons.forEach(button => {
         button.textContent = 'Show Map'; // Reset button text to "Show Map"
     });
 }
+
 
 
 function toggleMap(button) {

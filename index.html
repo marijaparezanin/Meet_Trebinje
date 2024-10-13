@@ -28,57 +28,178 @@
     <img class="logo-display" src="images/logo/horizontal_pomegranate_logo.png">
     <img class = "branch-separator" src="images/logo/branch_separator.png">
     <main>
-    <div class="restaurants">
-        <h1>Restaurants</h1>
-
-
-        <div class="carousel-container">
-            <div class="carousel">
-                <div class="card">
-                    <img src="images/restaurants/ras_img.jpg" alt="Card 1">
-                    <div class="card-text">
-                        <h2>RAS</h2>
-                        <p>Small description about Card 1</p>
-                        <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
-                        <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.618416592988!2d18.3468214!3d42.7106425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6958583c75ff%3A0xfc217b43200fe88c!2z0KDQtdGB0YLQvtGA0LDQvSDQoNCw0YEg0KLRgNC10LHQuNGa0LU!5e1!3m2!1sen!2srs!4v1728772576694!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-category">
+            <h1>Restaurants</h1>
+            <div class="carousel-container">
+                <div class="carousel"  data-current-index="0">
+                    <div class="card">
+                        <img src="images/restaurants/ras_img.jpg" alt="Restaurant Ras">
+                        <div class="card-text">
+                            <h2>RAS</h2>
+                            <p>The Serbian House of the Nemanjić Dynasty, which was fully reconstructed, renovated, and adapted in 2018, reflects the simplicity of the past way of life and is in harmony with the tradition of the Herzegovina region.</p>
+                            <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                            <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.618416592988!2d18.3468214!3d42.7106425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6958583c75ff%3A0xfc217b43200fe88c!2z0KDQtdGB0YLQvtGA0LDQvSDQoNCw0YEg0KLRgNC10LHQuNGa0LU!5e1!3m2!1sen!2srs!4v1728772576694!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="images/restaurants/humsko_img.jpg" alt="Restaurant Humsko">
+                        <div class="card-text">
+                            <h2>Humsko</h2>
+                            <p>Nestled right on the riverside, known among locals for its exceptional fish dishes and refreshing drinks, it perfectly combines the charm of its scenic location with a delightful dining experience.</p>
+                            <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                            <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.524026386718!2d18.3476075!3d42.7111624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69c520e6860b%3A0x5691ab400f75e808!2sRestaurant%20%22Humsko%22!5e1!3m2!1sen!2srs!4v1728773232578!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/restaurants/Studenac_img.jpg" alt="Restaurant Studenac">
+                        <div class="card-text">
+                            <h2>Studenac</h2>
+                            <p>An ideal combination of nature and architecture as well as a combination of Mediterranean and continental cuisine, and the authentic Herzegovinian specialties. Within the property there is a summer garden surrounded by ponds and greenery. Reservations needed at: <a href="https://spahotelstudenac.com/eng/restaurant-outdoor-seating/">website</a></p>
+                            <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                            <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.0922001179106!2d18.370606475989177!3d42.71201737116241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69023c40972b%3A0x344695b3cd6744c4!2sHotel%20Studenac!5e1!3m2!1sen!2srs!4v1728806684826!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="card">
-                    <img src="images/restaurants/humsko_img.jpg" alt="Card 2">
-                    <div class="card-text">
-                        <h2>Humsko</h2>
-                        <p>Small description about Card 2</p>
-                        <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
-                        <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.524026386718!2d18.3476075!3d42.7111624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69c520e6860b%3A0x5691ab400f75e808!2sRestaurant%20%22Humsko%22!5e1!3m2!1sen!2srs!4v1728773232578!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/restaurants/Studenac_img.jpg" alt="Card 3">
-                    <div class="card-text">
-                        <h2>Studenac</h2>
-                        <p>Small description about Card 3</p>
-                        <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
-                        <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.0922001179106!2d18.370606475989177!3d42.71201737116241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69023c40972b%3A0x344695b3cd6744c4!2sHotel%20Studenac!5e1!3m2!1sen!2srs!4v1728806684826!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control prev" onclick="moveCarousel(-1, document.querySelectorAll('.carousel')[0])">&#10094;</button>
+                <button class="carousel-control next" onclick="moveCarousel(1, document.querySelectorAll('.carousel')[0])">&#10095;</button>            
             </div>
-            <!-- Navigation arrows -->
-            <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
-            <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
         </div>
 
 
+        <img class = "branch-separator" src="images/logo/branch_separator.png">
+        <div class="card-category">
+            <h1>Attractions</h1>
+            <div class="carousel-container">
+                <div class="carousel"  data-current-index="0">
+                    <div class="card">
+                        <img src="images/attractions/perovic_most.jpg" alt="Perovic bridge">
+                        <div class="card-text">
+                            <h2>Perović (Arslanagić) bridge</h2>
+                            <p>The most famous monument from the Ottoman period in Trebinje and has a very important place in Balkan architecture of 16th century. Mehmed-Pasha Sokolović built the bridge 1574 in honor to his son who was killed in the battle with Venice.</p>
+                            <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                            <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2816.970630095335!2d18.35140087612762!3d42.71469567116218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c691fa2053873%3A0x8b4bd7ef4dc4b14f!2sArslanagi%C4%87%20Bridge!5e1!3m2!1sen!2srs!4v1728822040666!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="images/attractions/crkvina.jpg" alt="Hercegovacka Gracanica">
+                        <div class="card-text">
+                            <h2>Hercegovačka Gračanica</h2>
+                            <p>A stunning Orthodox monastery located on Crkvina Hill overlooking Trebinje. Built in the traditional Serbian style, it is a replica of the famous Gračanica Monastery in Kosovo. The site offers breathtaking views of the city and surrounding landscapes, making it both a spiritual and scenic landmark.</p>
+                            <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                            <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.1527749945317!2d18.3598625!3d42.7106828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69192d0f05e9%3A0x2affa6a1954f214f!2sHercegova%C4%8Dka%20Gra%C4%8Danica%20Temple!5e1!3m2!1sen!2srs!4v1728822320395!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/attractions/grad_sunca.jpg" alt="Grad Sunca">
+                        <div class="card-text">
+                            <h2>City of Sun - Water and Dino park</h2>
+                            <p> Guests can indulge in various amenities, such as a spa, swimming pools, and sports facilities. The complex also features charming walking paths and stunning views of the surrounding hills, making it an ideal destination for families and couples seeking a peaceful retreat in nature. Find out more: <a href="https://gradsuncatrebinje.swisslio.mycpanel.rs/sr/o-nama/grad-sunca">here</a></p>
+                            <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                            <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.3211965349515!2d18.2888393!3d42.706972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6eee8a8185c3%3A0x9104365eef1463fd!2sGrad%20Sunca%20-%20Water%20and%20Dino%20park!5e1!3m2!1sen!2srs!4v1728822643736!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="moveCarousel(-1, document.querySelectorAll('.carousel')[1])">&#10094;</button>
+                <button class="carousel-control next" onclick="moveCarousel(1, document.querySelectorAll('.carousel')[1])">&#10095;</button>
+            </div>
+
+        </div>
+
+
+        <img class = "branch-separator" src="images/logo/branch_separator.png">
+        <div class="card-category">
+                    <h1>Cities near by</h1>
+                    <div class="carousel-container">
+                        <div class="carousel"  data-current-index="0">
+                            <div class="card">
+                                <img src="images/cities/dubrovnik.jpg" alt="Dubrovnik">
+                                <div class="card-text">
+                                    <h2>Dubrovnik</h2>
+                                    <p>Dubrovnik is a city in southern Croatia fronting the Adriatic Sea. It's known for its distinctive Old Town, encircled with massive stone walls completed in the 16th century. Fun fact: Dubrovnik was the main filming location for King's Landing from Game of Thrones!</p>
+                                    <p><b>Distance: 33km  (20 mi)</b></p>
+                                    <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                                    <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45121.61799090744!2d18.09404725!3d42.6456847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b8ba20835e87d%3A0x400ad50862bd500!2sDubrovnik%2C%20Croatia!5e1!3m2!1sen!2srs!4v1728823376106!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <img src="images/cities/budva.jpeg" alt="Budva">
+                                <div class="card-text">
+                                    <h2>Budva</h2>
+                                    <p>Budva is a town in Montenegro on the Adriatic Sea. Part of the Budva Riviera, it's known for sandy beaches and nightlife. Stone walls built by the Venetians surround the narrow streets of the medieval old town (Stari Grad)</p>
+                                    <p><b>Distance: 103km  (64 mi)</b></p>
+                                    <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                                    <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22690.043583730432!2d18.820878068621155!3d42.288120156745045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134dd495f3e43371%3A0x3b467f06bc9c3048!2sBudva%2C%20Montenegro!5e1!3m2!1sen!2srs!4v1728823709875!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/cities/herceg_novi.jpg" alt="Herceg Novi">
+                                <div class="card-text">
+                                    <h2>Herceg Novi</h2>
+                                    <p> Herceg Novi is a charming coastal town located at the entrance to the Bay of Kotor in Montenegro. Known for its rich history, picturesque old town, and stunning coastal views, the town boasts a unique blend of Mediterranean and Ottoman architecture. Visitors can explore its narrow, stone-paved streets, beautiful fortresses, and lush botanical gardens.</p>
+                                    <p><b>Distance: 40km  (25 mi)</b></p>
+                                    <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                                    <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22628.918718365356!2d18.517158119207785!3d42.457543555742376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c3b7bad29fa7d%3A0xd05def2065636e1a!2sHerceg%20Novi%2C%20Montenegro!5e1!3m2!1sen!2srs!4v1728823768917!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/cities/mostar.jpg" alt="Mostar">
+                                <div class="card-text">
+                                    <h2>Mostar</h2>
+                                    <p>Mostar is a city in southern Bosnia and Herzegovina, straddling the Neretva River. It’s known for the iconic Stari Most (Old Bridge), a reconstructed medieval arched bridge. The nearby alleys are full of shops and market stalls, and the Old Bridge Museum explores the bridge’s long history.</p>
+                                    <p><b>Distance: 118km  (73 mi)</b></p>
+                                    <button class="show-map" onclick="toggleMap(this)">Show Map</button> <!-- Add this line -->
+                                    <div class="map-container" style="display: none;"> <!-- Wrap iframe in a div -->
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44615.04818188028!2d17.780040920353127!3d43.33954660610834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b43a43b6340a9%3A0x14f32b2d4e37c5a!2s88000%20Mostar%2C%20Bosnia%20and%20Herzegovina!5e1!3m2!1sen!2srs!4v1728823973875!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="moveCarousel(-1, document.querySelectorAll('.carousel')[2])">&#10094;</button>
+                        <button class="carousel-control next" onclick="moveCarousel(1, document.querySelectorAll('.carousel')[2])">&#10095;</button>
+                    </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </main>
+
+    <div class="about-us">
+        <p>Thishufheuifheiufhiejfoiejf
+            \nhfeiuhuehfefihueif
+        </p>
 
     </div>
 
-    </main>
+
+
 
     <script src="scripts/index.js"></script>
   </body>
