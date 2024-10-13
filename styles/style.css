@@ -70,11 +70,11 @@ body {
 
 .logo-display{
     position:relative;
-    background-color: transparent;
+    background: linear-gradient(to bottom, var(--red-more-transparent) 0%, var(--neutral-color,) 80%);
     width: 60%; /* Full width of the screen */
     height: 80%; /* Full height of the container */
     object-fit: cover;
-    padding: 10px 80px 0 80px;
+    padding: 10px 80px 10px 80px;
 }
 
 main .logo-display{
@@ -194,4 +194,54 @@ main {
     box-shadow: 0px 10px 15px rgba(2, 15, 64, 0.219);
     margin: 10px auto;           /* Centers the button horizontally */
     text-align: center;          /* Ensures the text is centered within the button */
+}
+
+
+.about-us {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--primary-color-transparent);
+    color: var(--neutral-color);
+    border-radius: 10px;
+}
+
+.about-us h3{
+    margin-top: 5px;
+
+}
+
+.about-us p{
+    text-align: justify;
+}
+
+.about-us a{
+    text-align: center;
+    color: var(--neutral-color);
+}
+
+.about-us img{
+    width: 70%;
+    border-style: none;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.about-developer{
+    margin-top: 30px;
+    width: 100%;
+    color: var(--font-brown);
+    background-color: var(--neutral-color-transparent);
+    border-radius: 20px;
+}
+
+.about-developer p{
+    padding: 20px;
+    text-align: center;
+}
+
+.about-developer a{
+    color: var(--font-brown);
+    text-decoration: none;
 }

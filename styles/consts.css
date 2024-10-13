@@ -4,8 +4,13 @@
     --secondary-color: #082040;
     --accent-color: #80BC00;
     --neutral-color: rgb(253, 245, 232);
+    --neutral-color-transparent:  rgba(253, 245, 232, 0.656);
     --font-cursive: 'Eye Catching Pro', sans-serif;   
     --font-green: rgb(49, 92, 51);
     --green-transparent:  rgba(49, 92, 51, 0.767);
+    --green-more-transparent: rgba(49, 92, 51, 0.415);
     --font-brown: #6e4618;
+    --red: rgba(175,3,1,255);
+    --red-transparent: rgba(175, 3, 1, 0.4);
+    --red-more-transparent: rgba(175, 3, 1, 0.15);
 }
