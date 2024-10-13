@@ -112,6 +112,8 @@ main {
     width: 100%;
     max-width: 1000px;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(2, 64, 14, 0.303);
 }
 
 /* Carousel */
@@ -126,9 +128,8 @@ main {
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-    background-color: #fff;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -138,10 +139,12 @@ main {
 }
 
 .card h2{
+    color: var(--font-green);
     margin-top: 0px;
 }
 
 .card-text {
+    color: var(--font-brown);
     padding: 10px;
 }
 
@@ -175,4 +178,14 @@ main {
     border: 1px solid #ccc; /* Optional border */
     border-radius: 8px; /* Optional border radius */
     overflow: hidden; /* Ensures the corners are rounded */
+}
+
+.show-map{
+     background-color: rgba(var(--font-green), 0.7);
+    color: var(--neutral-color);
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px rgba(2, 15, 64, 0.219);
+
 }

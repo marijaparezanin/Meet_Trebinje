@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #067584;
+    --primary-color: rgb(6 117 132);
     --secondary-color: #082040;
     --accent-color: #80BC00;
     --neutral-color: rgb(253, 245, 232);
     --font-cursive: 'Eye Catching Pro', sans-serif;   
     --font-green: rgb(49, 92, 51);
+    --font-brown: #6e4618;
 }
