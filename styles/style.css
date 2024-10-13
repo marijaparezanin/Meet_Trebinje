@@ -228,6 +228,16 @@ main {
     border-radius: 10px;
 }
 
+.apartment img{
+    width: 100%;
+}
+
+.apartment .card{
+    padding: 5px;
+    background-color: var(--neutral-color-transparent);
+}
+
+
 .about-developer{
     margin-top: 30px;
     width: 100%;
