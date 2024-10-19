@@ -1,6 +1,6 @@
 
 const filePath = "data/"
-const jsonFiles = ['restaurants.json','attractions.json', 'religious_landmarks.json', 'cities_near_by.json']; 
+const jsonFiles = ['restaurants.json','attractions.json', 'religious_landmarks.json', 'wineries.json', 'cities_near_by.json']; 
 
 jsonFiles.forEach(fileName => renderCategory(fileName));
 

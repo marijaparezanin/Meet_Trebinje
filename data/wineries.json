@@ -1,0 +1,26 @@
+{
+    "category_name": "Wineries",
+    "locations":[
+        {
+            "image_source":"images/wineries/vukoje.jpg",
+            "alt_name": "Vukoje",
+            "name": "Vukoje",
+            "description": "Vukoje Winery specializes in indigenous grape varieties, including Vranac and Žilavka, and offers a range of red, white, and rosé wines. Visitors can enjoy guided tours of the winery, tastings of their exquisite wines, and a chance to learn about the winemaking process, all while taking in the stunning views of the surrounding landscape.",
+            "map_link":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11267.729579570188!2d18.3434048!3d42.715538!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69288e9de01d%3A0xa837b9162bef8524!2sVinarija%20Vukoje!5e1!3m2!1sen!2srs!4v1729354255514!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/wineries/popovac.jpg",
+            "alt_name": "Popovac",
+            "name": "Popovac",
+            "description": "Popovac Winery is located in the village of Pridvorci near Trebinje, which boasts a Mediterranean climate with warm, dry summers, ideal for growing high-quality grapes. The predominant indigenous varieties are white Žilavka and red Vranac. This winery has a long-standing tradition of wine production, with a vineyard over 40 years old planted with Vranac grapes.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11271.104871214442!2d18.3317473!3d42.6969453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6f0a6f41ff5b%3A0x95a9abe017c87e0d!2sVinarija%20Popovac!5e1!3m2!1sen!2srs!4v1729354803446!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/wineries/petijevic.jpg",
+            "alt_name": "Petijevic",
+            "name": "Petijević",
+            "description": "Petijević Cellar is located by Lake Goričko, just 5 km from the center of Trebinje. A very old family tradition of winemaking and grapevine cultivation dates back to 1900. The cellar can offer tastings for up to 50 people at a time in a rural setting, where guests can sample Žilavka, Vranac, Merlot, and Chardonnay wines, as well as homemade rakija.",
+            "map_link":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11269.01660995585!2d18.3952224!3d42.7084492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69b31f195967%3A0x46a99de433fb22f9!2sPodrum%20vina%20Petijevi%C4%87!5e1!3m2!1sen!2srs!4v1729354850769!5m2!1sen!2srs"
+        }
+    ]
+}
