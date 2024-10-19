@@ -1,0 +1,33 @@
+{
+    "category_name": "Restaurants",
+    "locations":[
+        {
+            "image_source":"images/restaurants/ras.jpg",
+            "alt_name": "Restaurant Ras",
+            "name": "RAS",
+            "description": "The Serbian House of the Nemanjić Dynasty, which was fully reconstructed, renovated, and adapted in 2018, reflects the simplicity of the past way of life and is in harmony with the tradition of the Herzegovina region.",
+            "map_link":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.618416592988!2d18.3468214!3d42.7106425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6958583c75ff%3A0xfc217b43200fe88c!2z0KDQtdGB0YLQvtGA0LDQvSDQoNCw0YEg0KLRgNC10LHQuNGa0LU!5e1!3m2!1sen!2srs!4v1728772576694!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/restaurants/humsko.jpg",
+            "alt_name": "Restaurant Humsko",
+            "name": "Humsko",
+            "description": "Nestled right on the riverside, known among locals for its exceptional fish dishes and refreshing drinks, it perfectly combines the charm of its scenic location with a delightful dining experience.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.524026386718!2d18.3476075!3d42.7111624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69c520e6860b%3A0x5691ab400f75e808!2sRestaurant%20%22Humsko%22!5e1!3m2!1sen!2srs!4v1728773232578!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/restaurants/studenac.jpg",
+            "alt_name": "Restaurant Studenac",
+            "name": "Studenac",
+            "description": "An ideal combination of nature and architecture as well as a combination of Mediterranean and continental cuisine, and the authentic Herzegovinian specialties. Within the property there is a summer garden surrounded by ponds and greenery. Reservations needed at: <a href=\"https://spahotelstudenac.com/eng/restaurant-outdoor-seating/\">website</a>",
+            "map_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.0922001179106!2d18.370606475989177!3d42.71201737116241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69023c40972b%3A0x344695b3cd6744c4!2sHotel%20Studenac!5e1!3m2!1sen!2srs!4v1728806684826!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/restaurants/grk.png",
+            "alt_name": "Grk",
+            "name": "GRK",
+            "description": "Grk is a beloved ice cream sundae shop in Trebinje, renowned for its delicious and creatively crafted treats. It has become a favorite destination for locals and tourists alike, especially during the warm months, making it a must-visit spot.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.714657700273!2d18.347316!3d42.7101124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6935d2f7448d%3A0x48a41d22a93cfe0f!2sGrk-Bard%20caffe%20poslasti%C4%8Darnica!5e1!3m2!1sen!2srs!4v1728831446370!5m2!1sen!2srs"
+        }
+    ]
+}

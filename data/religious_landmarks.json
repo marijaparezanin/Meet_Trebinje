@@ -1,0 +1,47 @@
+{
+    "category_name": "Religious landmarks",
+    "locations":[
+        {
+            "image_source":"images/religious_attractions/crkvina.jpg",
+            "alt_name": "Hercegovacka Gracanica",
+            "name": "Hercegovačka Gračanica",
+            "description": "A stunning Orthodox monastery located on Crkvina Hill overlooking Trebinje. Built in the traditional Serbian style, it is a replica of the famous Gračanica Monastery in Kosovo. The site offers breathtaking views of the city and surrounding landscapes, making it both a spiritual and scenic landmark.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.1527749945317!2d18.3598625!3d42.7106828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69192d0f05e9%3A0x2affa6a1954f214f!2sHercegova%C4%8Dka%20Gra%C4%8Danica%20Temple!5e1!3m2!1sen!2srs!4v1728822320395!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/religious_attractions/sv_vasilije.jpg",
+            "alt_name": "St Vasilije",
+            "name": "Birth place of St Vasilijea",
+            "description": "The Birth House of Saint Vasilije, located in the village of Mrkonjići near Trebinje, is a modest yet deeply significant religious site. Saint Vasilije of Ostrog, one of the most revered saints in the Serbian Orthodox Church, was born here in 1610. The house, set amidst the peaceful rural landscape, has been preserved and restored, providing a glimpse into the saint’s humble beginnings. Nearby, a small church dedicated to Saint Vasilije has been built.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11244.794116889103!2d18.1002975!3d42.8417048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c79036e9a9ee3%3A0x4e0d5fbff21faddf!2sRodna%20ku%C4%87a%20Svetog%20Vasilija%20Ostro%C5%A1kog!5e1!3m2!1sen!2srs!4v1728830140822!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/religious_attractions/dzamija.jpg",
+            "alt_name": "Dzamija",
+            "name": "Osman-paše Resulbegovića Mosque",
+            "description": " The Osman-Paša Resulbegović Mosque is one of the most significant Islamic landmarks in Trebinje, located in the heart of the Old Town. Built in 1726 by Osman-Paša Resulbegović, the Ottoman governor of Herzegovina, the mosque is renowned for its elegant architecture and cultural importance. Its graceful minaret and dome stand out against the stone buildings of the town, while the interior features intricate Islamic decorations.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11268.605853072224!2d18.333682642328395!3d42.71071170000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c690016263ce3%3A0xe4225fca0429730b!2sOsman-pa%C5%A1e%20Resulbegovi%C4%87a%20d%C5%BEamija!5e1!3m2!1sen!2srs!4v1728830276343!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/religious_attractions/duzi.jpg",
+            "alt_name": "Duzi",
+            "name": "Duzi Monestary",
+            "description": "The Duži Monastery, established in the 16th century, is a significant Serbian Orthodox site in Herzegovina. It was built during the Ottoman period, serving as a refuge for monks from Tvrdoš Monastery. The monastery has a rich history of religious significance and cultural preservation, standing as a testament to the resilience of the local Orthodox community amid foreign rule.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45077.762914539846!2d18.185882348632802!3d42.706113000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6e6cd0eebcb9%3A0x353725a420f9d98f!2sDu%C5%BEi%20Monastery!5e1!3m2!1sen!2srs!4v1728830608495!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/religious_attractions/tvrdos.jpg",
+            "alt_name": "Tvrdos",
+            "name": "Tvrdos Monestary",
+            "description": "Built on the foundations of a 4th-century church, it is one of the oldest cultural-historical monuments in the Republic of Srpska. Though destroyed during the Turkish-Venetian war, it was rebuilt, and today, visitors can see its glass floor revealing the original church foundations. The monastery also preserves a centuries-old winemaking tradition, maintaining new vineyards, a wine cellar, and a modern winery.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11266.21000521136!2d18.28228!3d42.72390639999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6ef92eeeaf39%3A0x16a4c901dad73039!2sTvrdo%C5%A1%20Monastery%2C%20Bosnia%20and%20Herzegovina!5e1!3m2!1sen!2srs!4v1729101705547!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/religious_attractions/saborni_hram.jpg",
+            "alt_name": "Saborni hram",
+            "name": "Church of Holy Transfiguration of Our Lord",
+            "description": "This church has been honored many times throughout its existence, and one of the most important events was the arrival of St. Vasilije of Ostrog’s relics in 1996, whose headwear is still kept in the church. The church has a beautifully decorated garden with a monument honoring the recently deceased Serbian patriarch Pavle.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11268.862512372134!2d18.3454509!3d42.709298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c692544ed1747%3A0x5977516ad361ebff!2sCathedral%20Temple%20of%20Holy%20Transfiguration%20of%20Our%20Lord!5e1!3m2!1sen!2srs!4v1728830769553!5m2!1sen!2srs"
+        }
+    ]
+}

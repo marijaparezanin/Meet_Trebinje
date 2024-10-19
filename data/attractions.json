@@ -1,0 +1,26 @@
+{
+    "category_name": "Attractions",
+    "locations":[
+        {
+            "image_source":"images/attractions/perovic_most.jpg",
+            "alt_name": "Perovic bridge",
+            "name": "Perović (Arslanagić) bridge",
+            "description": "The most famous monument from the Ottoman period in Trebinje and has a very important place in Balkan architecture of 16th century. Mehmed-Pasha Sokolović built the bridge 1574 in honor to his son who was killed in the battle with Venice.",
+            "map_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2816.970630095335!2d18.35140087612762!3d42.71469567116218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c691fa2053873%3A0x8b4bd7ef4dc4b14f!2sArslanagi%C4%87%20Bridge!5e1!3m2!1sen!2srs!4v1728822040666!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/attractions/old_town.jpg",
+            "alt_name": "Old Town",
+            "name": "Old Town",
+            "description": "Trebinje's Old Town, known as Kastel, is a charming historical district nestled along the banks of the Trebišnjica River. Built in the 18th century, its narrow stone streets, traditional Ottoman-style architecture, and well-preserved fortifications transport visitors back in time. It's a peaceful spot, perfect for strolling and soaking in the history and beauty of Trebinje.",
+            "map_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.452693240428!2d18.345547300674223!3d42.710961929730225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c69e241c3f86d%3A0x49264176612cfaf5!2z0KHRgtCw0YDQuCDQs9GA0LDQtCDQotGA0LXQsdC40ZrQtQ!5e1!3m2!1sen!2srs!4v1728829765964!5m2!1sen!2srs"
+        },        
+        {
+            "image_source":"images/attractions/grad_sunca.jpg",
+            "alt_name": "Grad Sunca",
+            "name": "City of Sun - Water and Dino park",
+            "description": "Guests can indulge in various amenities, such as a spa, swimming pools, and sports facilities. The complex also features charming walking paths and stunning views of the surrounding hills, making it an ideal destination for families and couples seeking a peaceful retreat in nature. Find out more: <a href=\"https://gradsuncatrebinje.swisslio.mycpanel.rs/sr/o-nama/grad-sunca\">here</a>",
+            "map_link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.3211965349515!2d18.2888393!3d42.706972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c6eee8a8185c3%3A0x9104365eef1463fd!2sGrad%20Sunca%20-%20Water%20and%20Dino%20park!5e1!3m2!1sen!2srs!4v1728822643736!5m2!1sen!2srs"
+        }
+    ]
+}

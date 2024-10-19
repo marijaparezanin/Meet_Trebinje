@@ -1,0 +1,33 @@
+{
+    "category_name": "Cities near by",
+    "locations":[
+        {
+            "image_source":"images/cities/dubrovnik.jpg",
+            "alt_name": "Dubrovnik",
+            "name": "Dubrovnik",
+            "description": "Dubrovnik is a city in southern Croatia fronting the Adriatic Sea. It's known for its distinctive Old Town, encircled with massive stone walls completed in the 16th century. Fun fact: Dubrovnik was the main filming location for King's Landing from Game of Thrones!<b><br><br>Distance: 33km  (20 mi)</b>",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45121.61799090744!2d18.09404725!3d42.6456847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b8ba20835e87d%3A0x400ad50862bd500!2sDubrovnik%2C%20Croatia!5e1!3m2!1sen!2srs!4v1728823376106!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/cities/budva.jpeg",
+            "alt_name": "Budva",
+            "name": "Budva",
+            "description": "Budva is a town in Montenegro on the Adriatic Sea. Part of the Budva Riviera, it's known for sandy beaches and nightlife. Stone walls built by the Venetians surround the narrow streets of the medieval old town (Stari Grad).<b><br><br>Distance: 103km  (64 mi)</b>",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22690.043583730432!2d18.820878068621155!3d42.288120156745045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134dd495f3e43371%3A0x3b467f06bc9c3048!2sBudva%2C%20Montenegro!5e1!3m2!1sen!2srs!4v1728823709875!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/cities/herceg_novi.jpg",
+            "alt_name": "Herceg Novi",
+            "name": "Herceg Novi",
+            "description": "Herceg Novi is a charming coastal town located at the entrance to the Bay of Kotor in Montenegro. Known for its rich history, picturesque old town, and stunning coastal views, the town boasts a unique blend of Mediterranean and Ottoman architecture. Visitors can explore its narrow, stone-paved streets, beautiful fortresses, and lush botanical gardens.<b><br><br>Distance: 40km  (25 mi)</b>",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22628.918718365356!2d18.517158119207785!3d42.457543555742376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c3b7bad29fa7d%3A0xd05def2065636e1a!2sHerceg%20Novi%2C%20Montenegro!5e1!3m2!1sen!2srs!4v1728823768917!5m2!1sen!2srs"
+        },
+        {
+            "image_source":"images/cities/mostar.jpg",
+            "alt_name": "Mostar",
+            "name": "Mostar",
+            "description": "Mostar is a city in southern Bosnia and Herzegovina, straddling the Neretva River. It’s known for the iconic Stari Most (Old Bridge), a reconstructed medieval arched bridge. The nearby alleys are full of shops and market stalls, and the Old Bridge Museum explores the bridge’s long history.<b><br><br>Distance: 118km  (73 mi)</b>",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44615.04818188028!2d17.780040920353127!3d43.33954660610834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b43a43b6340a9%3A0x14f32b2d4e37c5a!2s88000%20Mostar%2C%20Bosnia%20and%20Herzegovina!5e1!3m2!1sen!2srs!4v1728823973875!5m2!1sen!2srs"
+        }
+    ]
+}
