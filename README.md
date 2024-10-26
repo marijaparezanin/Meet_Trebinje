@@ -1,6 +1,6 @@
 # Meet Trebinje
 
-Welcome to **Meet Trebinje**, a mobile-only website dedicated to showcasing the beautiful city of Trebinje, Bosnia and Herzegovina. This site is designed specifically for foreign tourists who want to explore the rich culture, stunning landscapes, and delightful culinary experiences Trebinje has to offer. The website was built to provide hosts of local accomodations to be able to suggest their foreign guests the best spots to see in Trebinje. Website optimization is planned for a future version of the project and the website remains mobile only.
+Welcome to **Meet Trebinje**, a mobile-only website dedicated to showcasing the beautiful city of Trebinje, Bosnia and Herzegovina. This site is designed specifically for foreign tourists who want to explore the rich culture, stunning landscapes, and delightful culinary experiences Trebinje has to offer. The website was built to provide hosts of local accomodations to be able to suggest their foreign guests the best spots to see in Trebinje. Currently the website is mobile only.
 
 ## Purpose
 
